@@ -1,0 +1,6 @@
+# Tests inherit the project checks; GoogleTest macros inflate complexity metrics.
+InheritParentConfig: true
+Checks: >
+  -readability-function-cognitive-complexity,
+  -cppcoreguidelines-avoid-goto,
+  -cert-err58-cpp
